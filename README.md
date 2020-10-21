@@ -1,6 +1,7 @@
 ＃wechat-pc-hook3.0.0.0
 python 微信调用
 本演示demo
+
 只能用于 python 3.7的版本
 只适用于最新版本3.0.0.57微信版本
 
