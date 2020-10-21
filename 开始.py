@@ -4,7 +4,7 @@ from ks import *
 def msgdata():
     msger = jtxx()
     for data in msger:
-        print(data)
+        print(data)#这里回调所有消息。可以直接使用
         if data[0]=="msgdp": #消息内容
             if data[5]=="0": # 1代表发送消息 0代表收到消息
                 if data[2].find("@chatroom") != -1:  # 群里发的消息
