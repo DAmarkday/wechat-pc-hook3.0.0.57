@@ -1,4 +1,4 @@
-＃wechat-pc-hook3.0.0.0
+＃wechat-pc-hook3.0.0.57
 python 微信调用
 本演示demo
 
@@ -17,3 +17,6 @@ ks.fxx(id, msg)
 
 有问题可以加群了解
 qq群：340306262
+
+wechat-pc-hook 只用于参考研究学习。请勿用于非法用途
+
