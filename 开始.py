@@ -13,12 +13,7 @@ def msgdata():
                     print("公众号消息")
                 if data[2].find("@chatroom") == -1 and data[2][0:3].find("gh_") == -1: #排除 群里发的消息 公众号收到的消息
                     print("私人消息")
-                    fxx(data[2], text[0:100])#发送消息 data[2]=微信id  text[0:100]=请求后的消息
+                    fxx(data[2], "发送成功")#发送消息 data[2]=微信id  text[0:100]=请求后的消息
 threading.Thread(target=msgdata).start()#多线程收消息 处理
-input("启动微信 作者qq：172502080")
-#发送消息
-#ks.fxx(id, msg)
-#while True:
-#    id=input("ID:")#等待用户输入id
-#    msg=input("内容：")#等待用户输入消息内容
-#    fxx(id, msg)
+input("启动微信")
+
